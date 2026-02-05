@@ -21,7 +21,7 @@
 
 ```mermaid
 graph TD
-    User([人类用户]) -- "1.自然语言" --> Translator[翻译官 Interpreter]
+    User([用户]) -- "1.自然语言" --> Translator[翻译官 Interpreter]
     Translator -- "2.需求结构化" --> Analyst[分析师 Analyst]
     Analyst -- "3.拆解任务/逻辑流" --> Executor[功能模型 Executor]
     Executor -- "4.阶段产物" --> Auditor[审查模型 Auditor]
